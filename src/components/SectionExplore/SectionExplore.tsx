@@ -1,11 +1,11 @@
 import { useRef } from 'react';
 
-import explore1Img from './../../assets/images/explore1.jpg'
-import explore2Img from './../../assets/images/explore2.jpg'
+
 import exploreVideo from './../../assets/videos/explore.mp4'
 import MainTitle from '../MainTitle/MainTitle';
 import PargraphCommon from '../PargraphCommon/PargraphCommon';
 import SubTitleCommom from '../SubTitleCommom/SubTitleCommom';
+import { images } from '../../Data/Data';
 
 
 interface exploreInter {
@@ -25,17 +25,7 @@ const Features = ({mainTitle , p1 , p2 ,p3 ,p4 , span1 , span2 , par1 ,par2} : e
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
 
-  const images = [
-    {
-      src: explore1Img,
-      alt: "titanium"
-    },
-    {
-      src: explore2Img,
-      alt: "titanium 2"
-    }
-  ];
-
+images
 
   return (
     <section className=" py-16 bg-zinc-900 px-5 lg:px-28 text-white ">

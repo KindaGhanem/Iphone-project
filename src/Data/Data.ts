@@ -19,6 +19,10 @@ import video2 from "./../assets/videos/hightlight-sec.mp4";
 import video3 from "./../assets/videos/hightlight-third.mp4";
 import video4 from "./../assets/videos/highlight-first.mp4";
 
+
+import explore1Img from './../assets/images/explore1.jpg'
+import explore2Img from './../assets/images/explore2.jpg'
+
 export const navItems = [ 
   {
     id: 1,
@@ -93,3 +97,14 @@ export const slides: VideoSlide[] = [
     texts: ["All-day battery life.", "Stay powered.", "No limits."],
   },
 ];
+
+ export const images = [
+    {
+      src: explore1Img,
+      alt: "titanium"
+    },
+    {
+      src: explore2Img,
+      alt: "titanium 2"
+    }
+  ];
